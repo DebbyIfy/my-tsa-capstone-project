@@ -1,67 +1,74 @@
-PLANETARY DATA LANDING PAGE (CAPSTONE TEMPLATE)
+# 🌍 Planetary Data Landing Page
 
-This project is a responsive landing page built to present planetary data in a clean, structured, and visually engaging way.
+A responsive and visually engaging landing page built to present planetary data in a clean, structured, and interactive way.
 
---------------------------------------------------
+---
 
-FEATURES
+## 🚀 Live Demo
 
-- Responsive layout (desktop, tablet, mobile)
-- Structured sections (Hero, Data, Visuals, Table, Form)
-- Interactive form with validation
-- Modal feedback on submission
-- Video integration
-- Clean UI with consistent spacing and alignment
+🔗 https://debbyify.github.io/my-tsa-capstone-project/
 
---------------------------------------------------
+---
 
-TECH STACK
+## 📂 GitHub Repository
+
+🔗 https://github.com/DebbyIfy/my-tsa-capstone-project
+
+---
+
+## ✨ Features
+
+- 📱 Fully responsive (desktop, tablet, mobile)
+- 🎨 Clean and modern UI design
+- 🧭 Structured layout (Hero, Data, Visuals, Table, Form)
+- 🧩 Component-based architecture (React)
+- 🎥 Video integration
+- 🖼️ Interactive image grid (hover + mobile tap support)
+- 📝 Form with validation and success modal
+- 💎 Premium input styling and micro-interactions
+- 🧭 Smooth UI interactions (hover effects, animations)
+
+---
+
+## 🛠️ Tech Stack
 
 - React (Vite)
 - JavaScript
 - CSS
 
---------------------------------------------------
+---
 
-PROJECT STRUCTURE
+## 📁 Project Structure
 
-- Component-based architecture
-- Reusable UI sections
+- Reusable components
 - Organized assets (images, videos)
+- Clean separation of sections
 
---------------------------------------------------
+---
 
-INSTRUCTIONS FOR USE (GROUP MEMBERS)
+## 🔗 Project Reference
 
-This repository serves as the base project (template) for the capstone.
+This project was developed based on a shared group template provided for the capstone.
 
-1. Clone this repository
+- Group Repository: https://github.com/DebbyIfy/planetary-capstone-template
 
-git clone https://github.com/DebbyIfy/planetary-capstone-template.git
+---
 
-2. Navigate into the project
+## 👩‍💻 Author
 
-cd planetary-capstone-template
+**Ifeoma O. Anyanwu**  
+🔗 https://github.com/DebbyIfy
 
-3. Remove the original remote
+---
 
-git remote remove origin
+## 📌 Notes
 
-4. Create your own repository and connect it
+- This is an individual submission based on a shared template.
+- Design structure remains consistent as required by the capstone guidelines.
+- Additional UI enhancements and interactions were implemented individually.
 
-git remote add origin https://github.com/DebbyIfy/YOUR-REPO-NAME.git
-git push -u origin main
+---
 
---------------------------------------------------
+## 🎉 Acknowledgment
 
-IMPORTANT NOTES
-
-- Do NOT submit this shared repository directly
-- Each person must submit their own repository
-- This is a clone project, so the design and structure should remain consistent
-
---------------------------------------------------
-
-AUTHOR
-
-Ifeoma O. Anyanwu
+Special thanks to my team members for collaboration and support during the development of the base template.
