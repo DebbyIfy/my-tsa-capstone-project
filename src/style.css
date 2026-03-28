@@ -410,7 +410,7 @@ input, select {
 .contactus > div:last-child {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  /* gap: 4px; */
 }
 
 .contactus-form label,
@@ -714,31 +714,6 @@ footer > * {
   margin-bottom: 16px;
 }
 
-/* new style */
-.radio-group {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 12px;
-}
-
-.radio-group label {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 14px;
-  margin-bottom: 0;
-  cursor: pointer;
-  font-weight: 400;
-}
-
-.radio-group input[type="radio"],
-.radio-group input[type="checkbox"] {
-  width: auto;
-  height: auto;
-  margin: 0;
-}
 
 /* nav container */
 .nav-container {
@@ -833,4 +808,40 @@ footer > * {
   padding-top: 20px;
   text-align: center;
   font-size: 14px;
+}
+
+/* Radio / Checkbox groups (clean + tight) */
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.radio-group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.radio-group input[type="radio"],
+.radio-group input[type="checkbox"] {
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+/* grid hover */
+.grid-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover,
+.grid-item.active {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }

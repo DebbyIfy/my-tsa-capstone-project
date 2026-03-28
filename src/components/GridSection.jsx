@@ -1,3 +1,4 @@
+import { useState } from "react";
 import mercury from "../assets/mercury.jpeg";
 import venus from "../assets/venus.jpg";
 import earth from "../assets/earth.jpeg";
@@ -8,6 +9,7 @@ import uranus from "../assets/uranus.jpeg";
 import neptune from "../assets/neptune.jpg";
 
 function GridSection() {
+  const [activeId, setActiveId] = useState(null);
   const planets = [
     { id: "mercury", name: "Mercury", img: mercury },
     { id: "venus",   name: "Venus",   img: venus },
@@ -28,7 +30,11 @@ function GridSection() {
 
       <div className="grid-images">
         {planets.map((planet) => (
-          <figure key={planet.id} className="grid-item">
+          <figure
+            key={planet.id}
+            className={`grid-item ${activeId === planet.id ? "active" : ""}`}
+            onClick={() => setActiveId(activeId === planet.id ? null : planet.id)}
+          >
             <img
               className="images"
               src={planet.img}
