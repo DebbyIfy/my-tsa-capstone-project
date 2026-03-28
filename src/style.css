@@ -125,6 +125,11 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+button:hover {
+  transform: translateY(-1px);
+  transition: 0.2s ease;
+}
+
 .hero-section {
   background-color: #051540;
   padding: 80px 24px;
@@ -174,6 +179,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+section {
+  padding: 80px 24px;
 }
 
 h2 {
@@ -231,6 +240,7 @@ b {
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .images {
@@ -807,11 +817,6 @@ footer > * {
 .team-grid a {
   display: block;
   text-align: left;
-}
-/* team hover */
-.team-grid a {
-  display: block;
-  text-align: left;
   transition: 0.2s ease;
 }
 
@@ -871,4 +876,27 @@ footer > * {
 .grid-item.active {
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer mobile fix */
+@media (max-width: 640px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: left;
+  }
+
+  .footer {
+    padding: 40px 16px;
+  }
+
+  .footer-resources,
+  .footer-about,
+  .footer-team {
+    width: 100%;
+  }
+
+  .footer-resources a {
+    display: block;
+  }
 }
