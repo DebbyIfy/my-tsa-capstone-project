@@ -758,3 +758,79 @@ footer > * {
 .nav-logo {
   height: 40px;
 }
+
+/* ===============================
+   FOOTER UPGRADE (SAFE)
+================================ */
+.footer {
+  background-color: #051540;
+  color: white;
+  padding: 80px 24px 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 40px;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 12px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Team grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 16px;
+}
+ 
+.team-grid a {
+  display: block;
+  text-align: left;
+}
+/* team hover */
+.team-grid a {
+  display: block;
+  text-align: left;
+  transition: 0.2s ease;
+}
+
+.team-grid a:hover {
+  transform: translateX(4px);
+}
+
+.footer-resources a {
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+.footer-resources a:hover {
+  transform: translateX(4px);
+}
+
+/* Bottom bar */
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
