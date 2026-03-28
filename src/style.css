@@ -154,6 +154,18 @@ button:hover {
   width: 100%;
   margin: 0 auto;
   display: block;
+animation: planetFloat 8s ease-in-out infinite;}
+
+@keyframes planetFloat {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.02);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
 }
 
 .hero-cta {
